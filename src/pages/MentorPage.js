@@ -45,7 +45,7 @@ const DashBoard = () => {
             <Cards
               name="Abhishek"
               image={image1}
-              about="He is a good boy"
+              about="Certified in Patent IPR"
               rating="⭐⭐⭐⭐⭐⭐"
             />
           </div>
@@ -53,7 +53,7 @@ const DashBoard = () => {
             <Cards
               name="Mithun"
               image={image1}
-              about="He is a good boy"
+              about="Certified in Patent IPR"
               rating="⭐⭐⭐⭐"
             />
           </div>
@@ -61,7 +61,7 @@ const DashBoard = () => {
             <Cards
               name="Logesh"
               image={image1}
-              about="He is a good boy"
+              about="Certified in Patent IPR"
               rating="⭐⭐⭐⭐"
             />
           </div>

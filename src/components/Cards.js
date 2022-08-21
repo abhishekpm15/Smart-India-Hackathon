@@ -1,4 +1,6 @@
 import React from "react";
+import { Button } from "@material-tailwind/react";
+
 import {
     Card,
     CardHeader,
@@ -10,7 +12,7 @@ import {
 const Cards = (props) => {
   return (
     <div>
-      <Card className="w-52">
+      <Card className="w-56">
         <CardHeader color="blue" className="relative h-56">
           <img
             src={props.image}
@@ -29,10 +31,12 @@ const Cards = (props) => {
         <CardFooter divider className="flex items-center justify-between py-3">
           <Typography variant="small">{props.rating}</Typography>
           <Typography variant="small" color="gray" className="flex gap-1">
-            
           </Typography>
         </CardFooter>
+        
       </Card>
+      <div className="mt-3"><Button className="bg-indigo-500">Click to view</Button></div>
+
     </div>
   );
 };

@@ -35,9 +35,7 @@ const LoginPage = () => {
   if (logged) {
     navigate("/DashBoard");
   }
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
+
 
   return (
     <div
