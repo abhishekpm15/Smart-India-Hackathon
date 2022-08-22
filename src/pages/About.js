@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import logo from "../images/nvpbois.png";
-import sky2 from "../images/sky2.jpg";
+import sky2 from "../images/sky2.png";
 import { motion } from "framer-motion";
 import {
   Card,

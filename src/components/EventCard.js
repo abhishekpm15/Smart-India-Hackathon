@@ -56,9 +56,10 @@ function EventCard(props) {
           >
             <i className="fab fa-instagram" />
           </Typography>
+          
         </Tooltip>
       </CardFooter>
-      <Button color="red">Join</Button>
+      <Button color="blue">Join</Button>
     </Card>
   );
 }

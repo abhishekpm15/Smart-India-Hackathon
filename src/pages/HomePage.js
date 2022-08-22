@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../components/Heading";
 import { Button } from "@material-tailwind/react";
 import logo from "../images/nvpbois.png";
-import sky2 from "../images/sky2.jpg";
+import sky2 from "../images/sky2.png";
 import { Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, SelectorIcon } from "@heroicons/react/solid";
@@ -49,16 +49,11 @@ const HomePage = () => {
       <div className="mx-72">
         <Card>
           <CardBody className="text-center">
-            <Typography variant="h5" className="mb-2">
+            <Typography variant="h4" className="mb-2 text-black">
               What is our Aim ?
             </Typography>
-            <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+            <Typography variant="h6">
+              GMM is an online platform to mentor, guide and facilitate IPR filing process for Grassroot innovators.
             </Typography>
           </CardBody>
         </Card>
@@ -120,7 +115,7 @@ const HomePage = () => {
         </Listbox>
       </div>
       <Button
-        color="blue"
+        color="yellow"
         className="inline-block mt-11 mb-11"
         onClick={() => {
           navigate("/LoginPage");

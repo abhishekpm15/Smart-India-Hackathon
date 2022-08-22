@@ -3,7 +3,7 @@ import SideNavbar from "../components/SideNavbar";
 import { Button } from "@material-tailwind/react";
 import NavBar2 from "../components/NavBar2";
 import logo from "../images/nvpbois.png";
-import sky2 from "../images/sky2.jpg";
+import sky2 from "../images/sky2.png";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Questions = () => {

@@ -35,7 +35,7 @@ const Cards = (props) => {
         </CardFooter>
         
       </Card>
-      <div className="mt-3"><Button className="bg-indigo-500">Click to view</Button></div>
+      <div className="mt-3"><Button className="bg-black hover:bg-deep-purple-400 ">Click to view</Button></div>
 
     </div>
   );

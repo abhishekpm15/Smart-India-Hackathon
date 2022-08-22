@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Input, Checkbox } from "@material-tailwind/react";
-import sky2 from "../images/sky2.jpg";
+import sky2 from "../images/sky2.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";

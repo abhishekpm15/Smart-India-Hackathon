@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <div className='mx-1 my-1'>
         <div className='py-1'>
-            <Button onClick={()=>{navigate("/Home")}} className='px-5 mx-5' color='blue' size='sm'>Home</Button>
-            <Button onClick={()=>{navigate("/About")}} className='px-5 mx-5' color='blue' size='sm' >About</Button>
-            <Button onClick={()=>{navigate("/Contact")}} className='px-5 mx-5' color='blue' size='sm'>Contact</Button>
+            <Button onClick={()=>{navigate("/Home")}} className='px-5 mx-5' color='yellow' size='sm'>Home</Button>
+            <Button onClick={()=>{navigate("/About")}} className='px-5 mx-5' color='yellow' size='sm' >About</Button>
+            <Button onClick={()=>{navigate("/Contact")}} className='px-5 mx-5' color='yellow' size='sm'>Contact</Button>
             
         </div>
     </div>

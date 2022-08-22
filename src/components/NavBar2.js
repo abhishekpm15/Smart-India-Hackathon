@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='mx-1 my-1'>
         <div className='py-1'>
-            <Button onClick={()=>{navigate("/DashBoard")}} className='px-5 mx-5' color='blue' size='sm'>Dash Board</Button>
+            <Button onClick={()=>{navigate("/DashBoard")}} className='px-5 mx-5' color='yellow' size='sm'>Dash Board</Button>
         </div>
     </div>
   )

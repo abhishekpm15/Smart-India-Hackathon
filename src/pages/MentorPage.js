@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import sky2 from "../images/sky2.jpg";
+import sky2 from "../images/sky2.png";
 import NavBar2 from "../components/NavBar2";
 import logo from "../images/nvpbois.png";
 import SideNavbar from "../components/SideNavbar";
